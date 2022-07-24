@@ -1,0 +1,7 @@
+{
+  "userAgent": "testing",
+  "video": false,
+  "screenshotOnRunFailure": false,
+  "testFiles": "**/*.feature",
+  "chromeWebSecurity": false
+}
