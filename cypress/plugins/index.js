@@ -10,9 +10,11 @@
 
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
-//const cucumber = require('cypress-cucumber-preprocessor').default
-// eslint-disable-next-line no-unused-vars
 
+const cucumber = require('cypress-cucumber-preprocessor').default
+// The file .cypress'cucumber'preo.... is not actually needed and that config can be directly placed on the cypress.json file
+
+// eslint-disable-next-line no-unused-vars
 function getConfigurationByFile(file) {
   return require(`../config/${file}.js`);
 }

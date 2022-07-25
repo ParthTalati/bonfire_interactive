@@ -3,5 +3,11 @@
   "video": false,
   "screenshotOnRunFailure": false,
   "testFiles": "**/*.feature",
-  "chromeWebSecurity": false
+  "chromeWebSecurity": false,
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "watchForFileChanges": false 
 }
+
+
